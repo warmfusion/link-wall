@@ -1,0 +1,39 @@
+{
+  "name": "link-wall",
+  "description": "Creates a single webpage of links with thumbnails to help users find their way around multiple sites more easily.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/warmfusion/link-wall",
+  "author": {
+    "name": "Toby Jackson",
+    "email": "admin@warmfusion.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/warmfusion/link-wall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/warmfusion/link-wall/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/warmfusion/link-wall/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/link-wall",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0"
+  },
+  "keywords": []
+}
