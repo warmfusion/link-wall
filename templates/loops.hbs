@@ -1,0 +1,35 @@
+---
+title: Home
+lead: <%= site.lead %> # this is used by the subhead component
+---
+
+<!-- Header -->
+<div class="bs-docs-section">
+  <div class="page-header">
+    <h1 id="{{slugify title}}">Welcome!  {{> popover popover.anchors }}</h1>
+  </div>
+  <div class='container-fluid' > 
+
+    {{#each  links }} 
+    <a href="{{ link }}">
+      <div class='col-xs-6 col-md-3'>
+          <div class="thumbnail">
+            <div style='width: 150px;height: 150px;''>
+              {{#if image }}
+                <img src="{{ image }}" />
+              {{ else }}
+                <span style='line-height: 64px' class='glyphicon glyphicon-{{ glyphicon }}'></span>
+              {{/if}}
+            </div>
+            <div class="caption">
+              <p>{{ title }} {{> popover popover.anchors }}</p>
+            </div>
+          </div>
+      </div>
+    </a>
+    {{/each}} 
+  </div> 
+
+</div>
+
+

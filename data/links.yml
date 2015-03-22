@@ -1,0 +1,9 @@
+---
+links:
+  - title: bob
+    link: http://someplace.com
+    glyphicon: question-sign
+  - title: fred
+    link: http://example.com
+    text: 'This is the popover text'
+    image: missing
