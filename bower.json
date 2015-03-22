@@ -1,0 +1,21 @@
+{
+  "name": "link-wall",
+  "version": "0.1.0",
+  "homepage": "https://github.com/warmfusion/link-wall",
+  "authors": [
+    "Toby Jackson <admin@warmfusion.co.uk>"
+  ],
+  "description": "Creates a single webpage of links with thumbnails to help users find their way around multiple sites more easily.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.4"
+  }
+}
